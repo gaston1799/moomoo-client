@@ -96,6 +96,11 @@ const MENU_CSS = `
 #menuCardHolder .menuCard{background:rgba(15,22,16,.85)!important;border:1px solid #2a3d2a!important;border-radius:14px!important}
 #adCard,#wideAdCard{display:none!important}
 #guideCard{color:#cfe6cf!important}
+#guideCard .menuHeader{color:#b8e986!important}
+#guideCard .menuText{color:#a8c9a8!important}
+#menuCardHolder .menuCard{background:rgba(15,22,16,.85)!important;border:1px solid #2a3d2a!important;border-radius:14px!important;box-shadow:none!important}
+#serverBrowser select:hover,#serverBrowser select:focus{border-color:#8ec33f!important;outline:none}
+#nameInput:hover{border-color:#3d5a3d!important}
 #mainMenu ::-webkit-scrollbar{width:8px}
 #mainMenu ::-webkit-scrollbar-track{background:#0d1410}
 #mainMenu ::-webkit-scrollbar-thumb{background:#2a3d2a;border-radius:4px}
