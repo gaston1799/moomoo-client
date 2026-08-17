@@ -96,6 +96,7 @@ const MENU_CSS = `
 #menuCardHolder .menuCard{background:rgba(15,22,16,.85)!important;border:1px solid #2a3d2a!important;border-radius:14px!important}
 #adCard,#wideAdCard{display:none!important}
 #guideCard{color:#cfe6cf!important}
+#guideCard{color:#cfe6cf!important;max-height:none!important;height:auto!important;overflow-y:auto!important}
 #guideCard .menuHeader{color:#b8e986!important}
 #guideCard .menuText{color:#a8c9a8!important}
 #menuCardHolder .menuCard{background:rgba(15,22,16,.85)!important;border:1px solid #2a3d2a!important;border-radius:14px!important;box-shadow:none!important}
