@@ -1,0 +1,53 @@
+# deps
+node_modules/
+
+# dev certificates (self-signed, local mock only)
+mock-key.pem
+mock-cert.pem
+
+# downloaded game bundles / RE artifacts (huge, not ours)
+index-*.js
+vendor-*.js
+*.beautified.js
+tampermonkeyclient.js
+moomoo-auto.js
+
+# logs
+*.log
+driver-debug.log
+mock-debug.log
+
+# screenshots
+*.png
+
+# harness
+.deepseek-watch/
+
+# build temp
+.tmp-*.js
+
+# one-off RE/debug scripts
+probe-fetch*.mjs
+probe-wipe*.mjs
+probe-nav*.mjs
+probe-now.mjs
+probe-boot2.mjs
+probe-doc.mjs
+probe-live*.mjs
+probe-page.mjs
+probe-body.mjs
+probe.mjs
+probe2.mjs
+probe3.mjs
+probe4.mjs
+probe5.mjs
+probe6.mjs
+drive*.mjs
+grep-*.js
+watch-boot.mjs
+reload-click-shot.mjs
+nav.mjs
+join.mjs
+gen-cert.js
+click-enter.mjs
+click-enter2.mjs
